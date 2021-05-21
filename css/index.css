@@ -1,0 +1,339 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.mainBody{
+    width: 100%;
+
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Mheader{
+    width: 1300px;
+    /* background: red; */
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoBox{
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logoImg{
+    width: 72px;
+    height: 72px;
+    margin-right: 10px;
+    
+}
+.logoTitle{
+    font-size: 16px;
+    font-weight: 600;
+}
+.mainNav{
+    width: 100%;
+    background: rgb(255, 207, 0);
+    height: 36px;
+}
+.navBox{
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navItem{
+    width: auto;
+    padding: 0 30px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 36px;
+    color: #232320;
+    cursor: pointer;
+}
+.navItem.active{
+    color: #232320;
+    background: #fff;
+}
+.bannerbox {
+    width:100%;
+    height:500px;
+    background-color: coral;
+}
+.banner {
+    width:3000px; /*图片宽度*/
+    position:absolute;
+    left:50%;
+    margin-left:-1500px; /*图片宽度的一半*/
+}
+.mainTab{
+    width: 100%;
+    margin-top: 65px;
+}
+.tabBox{
+    width: 1300px;
+    margin: 0 auto;
+}
+.tabTitle{
+    font-size: 30px;
+    color: #4c4c4c;
+    text-align: center;
+}
+.tabEn{
+    font-size: 14px;
+    color: #4c4c4c;
+    text-align: center;
+    margin-top: 20px;
+}
+.deepLine{
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.deepLine img{
+    width: 100%;
+    height: auto;
+}
+.tabCon{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.secondCon{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: auto;
+}
+.tabItem{
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.tabItem:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px  #e9edf3;
+    transform: scale(1.1);
+}
+.secItem{
+    width: 25%;
+    height: 220px;
+}
+.tabImg{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+}
+.tabImg img{
+    width: 100%;
+    height: 100%;
+}
+.tabHead{
+    font-size: 22px;
+    color: #666666;
+    text-align: center;
+    padding: 10px;
+}
+.tabDesc{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.tabDesc p{
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+    padding: 5px 0;
+    line-height: 24px;
+}
+.tabback{
+    width: 100%;
+    min-height: 420px;
+    height: auto;
+    padding-left: 50%;
+    box-sizing: border-box;
+}
+.rigntCon{
+   display: flex;
+   justify-content: flex-start;
+}
+.rightItem{
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    
+}
+.itemCount{
+    font-size: 48px;
+    color: rgb(0, 109, 183);
+}
+.itemDesc{
+    padding-top: 10px;
+    font-size: 18px;
+    color: #232020;
+}
+.aboutTitle{
+    font-size: 30px;
+    color: #232020;
+    padding-left: 20px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+.aboutDesc{
+    padding: 20px;
+    box-sizing: border-box;
+}
+.aboutDesc p{
+    font-size: 18px;
+    color: #232020;
+}
+.NewsCon{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: auto;
+}
+.newImg{
+    width: 48%;
+}
+.newImg img{
+    width: 100%;
+    height: auto;
+}
+.newlink{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.newItem{
+    width: 25%;
+    height: 150px;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    
+  }
+  .swiper-slide img{
+    width: 100%;
+    height: 100%;
+  }
+  footer{
+      width: 100%;
+      height: 460px;
+      position: relative;
+      margin-top: 50px;
+  }
+  .Mfooter{
+      width: 1300px;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: flex-start;
+      padding: 50px 40px;
+      box-sizing: border-box;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 200;
+  }
+  .FItemTitle{
+      font-size: 18px;
+      color: #fff;
+      padding: 20px;
+      padding-left: 0;
+  }
+  .line{
+      width: 330px;
+      box-sizing: border-box;
+      height: 1px;
+      background: #3A3C3E;
+  }
+  .FConItem{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 10px 0;
+      box-sizing: border-box;
+  }
+  .FImg{
+     width: 50px;
+     height: 50px;
+     margin-right: 20px;
+  }
+  .FImg img{
+      width: 100%;
+      height: 100%;
+  }
+  .FCon{
+      color: #ccc;
+      font-size: 18px;
+  }
+  .footItem{
+      padding-right: 60px;
+      box-sizing: border-box;
+  }
+  .FItemWord{
+      font-size: 18px;
+      padding: 15px 0;
+      color: #ccc;
+  }
+  .EWMImg{
+      width: 160px;
+      height: 160px;
+      margin: 0 auto;
+      margin-top: 50px;
+      background: #fff;
+  }
+  .EWMImg img{
+      width: 100%;
+      height: 100%;
+  }
+  .ewmWord{
+    color: #ccc;
+    font-size: 18px;
+    padding: 20px 0;
+  }
+  .roleBox{
+      width: 100%;
+      height: 64px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      /* background: #000; */
+      z-index: 300;
+  }
